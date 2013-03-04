@@ -1,6 +1,6 @@
-# README
+# Octopress Aside for MailChimp Signup Forms
 
-This plug-in allows to add the [Mail Chimp mailing list sign up form](http://stackoverflow.com/users/flair)  in the blog aside. 
+Use your Octopress blogs to drive readers to sign up for a MailChimp mailing list, with an Aside on every page.
 
 This plugin is quite simple. It consists of a simple modification in the  __\_config.yml__ file and the addition of an aside html in the asides section.
 

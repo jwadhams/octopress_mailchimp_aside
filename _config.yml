@@ -1,0 +1,14 @@
+# To add the Mail Chimp list signup aside just add the aside in the list of default asides, as below:
+default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.html, asides/delicious.html, asides/pinboard.html, asides/mailchimp.html]
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+# Mailchimp sign up
+mailchimp: true
+mailchimp_list_name: product newsletter
+mailchimp_list_why: so you can hear from us when we announce new courses.
+mailchimp_embed_action: http://example.us2.list-manage.com/subscribe/post?u=00000000000000000000000&amp;id=000000000
+# In Mailchimp, in "For Your Website" pick "Signup Form Embed Code"
+# In the code sample, copy the URL from <form action="..."> and paste it here as mailchimp_embed_action

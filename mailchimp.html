@@ -1,0 +1,10 @@
+{% if site.mailchimp %}
+<section>
+	<h1>Sign up for our {{ site.mailchimp_list_name }}</h1>
+	{{ site.mailchimp_list_why }}
+	<form action="{{ site.mailchimp_embed_action }}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+		<input type="text" placeholder="Your Email Here" autocomplete="off" name="EMAIL" id="mce-EMAIL">
+		<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn">
+	</form>
+</section>
+{% endif %}
